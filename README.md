@@ -54,7 +54,7 @@ _The new book is marked as a star (⭐), green if popular and red if not popular
 3.Run the program
 
 
-Learning Outcome
+## Learning Outcome
 
 From this exercise, I learned how to:
 
