@@ -1,3 +1,7 @@
+# Exercise 3: Visualize decision boundary and predict new book popularity
+# This script plots the perceptron's decision boundary for the dataset X and y,
+# allows the user to input a new book, predicts its popularity, and shows it on the plot.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from perceptron_class import Perceptron

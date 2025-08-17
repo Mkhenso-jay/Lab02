@@ -13,13 +13,7 @@ class Perceptron:
         z = np.dot(x, self.weights[1:]) + self.weights[0]
         return self.activation(z)
 
-    def fit(self, X, y, epochs=None, lr=None):
-        # Use values from method arguments if provided, else use object defaults
-        if epochs is not None:
-            self.epochs = epochs
-        if lr is not None:
-            self.lr = lr
-
+    def fit(self, X, y):
         self.errors_ = []
         for _ in range(self.epochs):
             errors = 0

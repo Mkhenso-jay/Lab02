@@ -10,6 +10,9 @@ from exercise1 import X, y
 perceptron = Perceptron(input_size=2, lr=0.01, epochs=20)
 perceptron.fit(X, y)
 
+# Print number of epochs
+print(f"Training complete. Number of epochs: {perceptron.epochs}")
+
 # Plot learning progress
 plt.plot(range(1, perceptron.epochs + 1), perceptron.errors_, marker='o')
 plt.xlabel('Epochs')
