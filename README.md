@@ -35,12 +35,12 @@ The program trains the perceptron, shows the **learning progress**, then allows 
 
 ### Learninig Progress  
 _Shows how errors decrease over epochs._  
-![Training Progress](screenshots/training_progress.png)  
+![Training Progress](learningprogress.png)  
  
 
 ### Decision Boundary with New Book  
 _The new book is marked as a star (⭐), green if popular and red if not popular._  
-![Decision Boundary](screenshots/decision_boundary.png)  
+![Decision Boundary](decisionboundary.png)  
 
 ---
 
